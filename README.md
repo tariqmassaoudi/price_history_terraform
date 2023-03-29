@@ -51,19 +51,6 @@
 
 
 
-### Installation
-
-
-1. Clone or download the repo to your local machine.
-2. Open chrome and go to chrome://extensions/ , enable developer mode and click Load unpacked.
- <img src="readme_images/installexplanation.png"/>
-4. From the repo you downloaded select the build folder.
- <img src="readme_images/folderselect.png"/>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Terraform Deployement Instructions
 1. Clone this repo
 ```
