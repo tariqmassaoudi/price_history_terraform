@@ -1,0 +1,24 @@
+# Ignore credentials and env files
+
+key.pem
+credentials
+tests/.env
+frontend/.env.developement
+
+#Ignore frontend 
+frontend/node_modules
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore provider plugin binaries
+*.plugin
+
+# Ignore local backup files
+*.bak
+*.backup

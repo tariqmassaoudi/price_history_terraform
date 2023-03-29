@@ -1,0 +1,66 @@
+{
+  "name": "tariqmassaoudi",
+  "private": true,
+  "description": "Tariq Massaoudi's Personal Website",
+  "version": "0.1.0",
+  "author": "Tariq Massaoudi",
+  "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@react-jvectormap/core": "^1.0.3",
+    "@react-jvectormap/spain": "^1.0.1",
+    "chart.js": "^3.9.1",
+    "chartjs-plugin-annotation": "^2.0.1",
+    "gatsby": "^4.21.1",
+    "gatsby-plugin-feed": "^4.21.0",
+    "gatsby-plugin-image": "^2.21.0",
+    "gatsby-plugin-manifest": "^4.21.0",
+    "gatsby-plugin-sharp": "^4.21.0",
+    "gatsby-remark-classes": "^1.0.2",
+    "gatsby-remark-copy-linked-files": "^5.21.0",
+    "gatsby-remark-embed-gist": "^1.2.1",
+    "gatsby-remark-images": "^6.21.0",
+    "gatsby-remark-prismjs": "^6.21.0",
+    "gatsby-remark-responsive-iframe": "^5.21.0",
+    "gatsby-remark-smartypants": "^5.21.0",
+    "gatsby-source-filesystem": "^4.21.1",
+    "gatsby-transformer-remark": "^5.21.0",
+    "gatsby-transformer-sharp": "^4.21.0",
+    "heroicons": "^2.0.11",
+    "javascript-time-ago": "^2.5.7",
+    "jquery": "^3.6.1",
+    "plotly.js": "^2.16.1",
+    "prismjs": "^1.28.0",
+    "react": "^18.1.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.1.0",
+    "react-plotly.js": "^2.6.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "gatsby-plugin-postcss": "^5.21.0",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8"
+  },
+  "homepage": "https://tariqmassaoudi.com",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
