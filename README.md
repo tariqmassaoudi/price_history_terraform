@@ -85,18 +85,41 @@ https://user-images.githubusercontent.com/52799665/226168304-1ec7cf8d-3343-4d5c-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Developement
-
+### Terraform Deployement Instructions
+1. Clone this repo
 ```
-git clone https://github.com/tariqmassaoudi/two-subs
-cd two-subs
-npm install
-npm start
+git clone https://github.com/tariqmassaoudi/price_history_terraform
 ```
+2. In the root directory create a file named: "credentials" content below
+[default]
+aws_access_key_id = YOUR AWS ACCESS KEY
+aws_secret_access_key = YOUR AWS SECRET KEY
+3. Install Terraform CLI
+4. Run these commands in the root directory
+```
+terraform init
+terraform apply
+```
+5.Wait for the ressources to be deployed, it takes around 15 minutes. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
+## Testing
+```
+cd tests
+python execute_all_tests.py
+```
+
+* Add two subtitles simultaneously.
+* Subtitles are selectable so can be used with external on hover dictionnary.
+* Automatically pauses when you hover over substitles, automatically resumes when you exit hover.
+* Integrated anime JP/ENG subtitles search
+* Customize subtitle size, visibility, position and fix sync problems.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Features
 
 * Add two subtitles simultaneously.
