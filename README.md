@@ -94,12 +94,9 @@ gatsby develop
 
 ## Features
 
-* Add two subtitles simultaneously.
-* Subtitles are selectable so can be used with external on hover dictionnary.
-* Automatically pauses when you hover over substitles, automatically resumes when you exit hover.
-* Integrated anime JP/ENG subtitles search
-* Customize subtitle size, visibility, position and fix sync problems.
-
+* Tracks more than 200K products and updates price history for each one of them.
+* Recommends top products that have dropped in price recently.
+* One command deployement & Infrastructure as code with Terraform.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
