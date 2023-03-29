@@ -22,3 +22,8 @@ frontend/node_modules
 # Ignore local backup files
 *.bak
 *.backup
+
+frontend/.cache
+package.json
+package-lock.json
+frontend/public
