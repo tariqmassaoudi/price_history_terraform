@@ -32,17 +32,13 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+
+
     <li>
-      <a href="#demo-video">Demo Video</a>
-    </li>
-      <li><a href="#general-use-case">General Use Case</a></li>
-    <li>
-      <a href="#japanese-learning-use-case-instructions">Japanese Learning Use Case Instructions</a>
-    </li>
-    <li><a href="#installation">Terraform Deployement Instructions</a></li>
-     <li><a href="#installation">Testing</a></li>
-     <li><a href="#features">Running the front end</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#terraform-deployement-instructions">Terraform Deployement Instructions</a></li>
+     <li><a href="#testing">Testing</a></li>
+     <li><a href="#running-the-front-end">Running The Front End</a></li>
+           <li><a href="#features">Features</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -54,23 +50,6 @@
 
 
 
-## Demo Video
-
-https://user-images.githubusercontent.com/52799665/226168304-1ec7cf8d-3343-4d5c-8579-40479af9c4ce.mp4
-<!-- GETTING STARTED -->
-## General Use Case
-
-* Load subtitles in your native language and target language you want to learn to a video.
-* You can find subtitles for most content on Open Subtitles or Yify Subtitles. 
-* Look for an on hover dictionnary chrome extension that supports your target language.
-
-
-## Japanese Learning Use Case Instructions
-
-* Set up Yomichan, follow instructions here: https://learnjapanese.moe/yomichan/
-* Find your favorite anime.
-* Look up subtitles in the integrated anime subs search, if you can't find them look on the web.
-* Load the subtitles and watch, whenever you encounter a word you can't understand, press "shift" and hover over it to see definition. 
 
 ### Installation
 
@@ -107,19 +86,26 @@ terraform apply
 <!-- USAGE EXAMPLES -->
 
 ## Testing
+Only execute this after deploying.
 ```
 cd tests
+pip install -r requirements.txt
 python execute_all_tests.py
 ```
 
-* Add two subtitles simultaneously.
-* Subtitles are selectable so can be used with external on hover dictionnary.
-* Automatically pauses when you hover over substitles, automatically resumes when you exit hover.
-* Integrated anime JP/ENG subtitles search
-* Customize subtitle size, visibility, position and fix sync problems.
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Running The Front End
+```
+cd frontend
+npm i 
+gatsby develop
+
+```
+
+
+
 ## Features
 
 * Add two subtitles simultaneously.
@@ -127,19 +113,6 @@ python execute_all_tests.py
 * Automatically pauses when you hover over substitles, automatically resumes when you exit hover.
 * Integrated anime JP/ENG subtitles search
 * Customize subtitle size, visibility, position and fix sync problems.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Release v1.0.0
-- [ ] Look for and fix bugs
-- [ ] Add more features
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,18 +155,6 @@ Personal Website: [Tariq Massaoudi](https://tariqmassaoudi.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Movie Subtitles](https://github.com/gignupg/Movie-Subtitles) for the base code.
-* [Kitsunekko](https://kitsunekko.net/) for anime subtitles collection.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
