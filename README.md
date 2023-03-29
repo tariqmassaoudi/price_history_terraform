@@ -18,7 +18,7 @@
     ·
      <a href="https://www.tariqmassaoudi.com/jumia-price-comparator/">Article (Old Implementation)</a>
     .
-    <a href="https://github.com/tariqmassaoudi/two-subs/issues">Request Feature</a>
+    <a href="https://github.com/tariqmassaoudi/price_history_terraform/issues">Request Feature</a>
   </p>
 
 </div>
