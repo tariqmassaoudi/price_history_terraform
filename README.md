@@ -54,11 +54,11 @@
 git clone https://github.com/tariqmassaoudi/price_history_terraform
 ```
 2. In the root directory create a file named: "credentials" with the content below : <br/>
-
-[default] <br/>
-aws_access_key_id = YOUR AWS ACCESS KEY <br/>
-aws_secret_access_key = YOUR AWS SECRET KEY <br/>
-
+```
+[default]
+aws_access_key_id = YOUR AWS ACCESS KEY
+aws_secret_access_key = YOUR AWS SECRET KEY
+```
 3. Install Terraform CLI
 4. Run these commands in the root directory
 ```
