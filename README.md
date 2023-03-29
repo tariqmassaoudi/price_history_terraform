@@ -72,7 +72,7 @@ terraform apply
 <!-- USAGE EXAMPLES -->
 
 ## Testing
-Only execute this after deploying.
+To validate your terraform deployement execute this:
 ```
 cd tests
 pip install -r requirements.txt
