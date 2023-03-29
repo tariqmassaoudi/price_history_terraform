@@ -32,9 +32,6 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-
-
-    <li>
     <li><a href="#terraform-deployement-instructions">Terraform Deployement Instructions</a></li>
      <li><a href="#testing">Testing</a></li>
      <li><a href="#running-the-front-end">Running The Front End</a></li>
