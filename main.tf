@@ -106,7 +106,7 @@ provisioner "remote-exec" {
       "psql -h ${split(":", data.aws_db_instance.postgres.endpoint)[0]} -U postgres -d ${aws_db_instance.postgres.db_name} -f /home/ec2-user/scrape_scripts/schema.sql",
       "sudo yum -y install python-pip",
       "pip install -r /home/ec2-user/scrape_scripts/requirements.txt",
-      "echo '10 0 * * * /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/scrapeJumia.py & && /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updateProducts.py & && /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updatePrices.py & &&  /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updateProdRanking.py & &&  /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updateKpi.py &' > /tmp/my-cron",
+      "echo '10 0 * * * /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/scrapeJumia.py && /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updateProducts.py && /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updatePrices.py &&  /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updateProdRanking.py &&  /usr/bin/nohup /usr/bin/python /home/ec2-user/scrape_scripts/updateKpi.py &' > /tmp/my-cron",
       "crontab /tmp/my-cron"
 
     ]

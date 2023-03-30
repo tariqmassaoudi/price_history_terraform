@@ -18,6 +18,6 @@ engine = create_engine(db_uri)
 # Try to connect to the database
 try:
     with engine.connect() as conn:
-        print "Connectivity test Passed Successfully ✅"
+        print ("Connectivity test Passed Successfully ✅")
 except OperationalError as e:
-    print "Failed to connect ❌: %s" % e
+    print ("Failed to connect ❌: %s" % e)
